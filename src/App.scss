@@ -1,0 +1,74 @@
+@import "./assets/scss/reset.scss";
+@import "react-modern-calendar-datepicker/lib/DatePicker.css";
+@import "font-awesome/css/font-awesome.css";
+@import "react-datepicker/dist/react-datepicker.css";
+
+body {
+  min-width: 1903px;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+  color: #cf000e;
+  text-decoration: underline;
+}
+#root {
+  position: relative;
+  height: 100%;
+}
+
+.App {
+  min-height: 100vh;
+  height: 100%;
+  position: relative;
+}
+
+.App-contents {
+  margin: 0 auto;
+  padding: 30px;
+
+  h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+
+  h6 {
+    margin-bottom: 10px;
+  }
+}
+
+.inline-col {
+  .col:first-child {
+    flex: 0;
+  }
+
+  .col {
+    flex-grow: initial;
+    flex: 1;
+  }
+}
+
+.inline-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  label {
+    font-size: 12px !important;
+    font-weight: bold;
+  }
+}
+
+.small-container {
+  width: 100%;
+  max-width: 1550px;
+  margin: 0 auto;
+}

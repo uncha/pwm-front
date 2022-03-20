@@ -1,0 +1,39 @@
+[
+  {
+    "id": "/",
+    "value": "LOGO",
+    "html": "<img src='/images/icon/logo-seegene.svg' alt=''/>"
+  },
+  {
+    "type": "separator"
+  },
+  {
+    "type": "spacer"
+  },
+  {
+    "id": "theme",
+    "value": "theme",
+    "html": "<button class='menu-theme-button'>테마 변경</button>"
+  },
+  {
+    "icon": "dxi dxi-menu-down",
+    "html": "<p><img src='' /> Dkpark (컨텐츠정보화팀)</p>",
+    "items": [
+      {
+        "id": "/about",
+        "value": "aboud",
+        "icon": "mdi mdi-information-variant"
+      },
+      {
+        "id": "/help",
+        "value": "Help",
+        "icon": "mdi mdi-help"
+      },
+      {
+        "id": "/bug",
+        "value": "Bug Reporting",
+        "icon": "mdi mdi-bug"
+      }
+    ]
+  }
+]

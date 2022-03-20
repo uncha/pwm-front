@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        min-width: 720px;
+      }
+      .header-div {
+        padding: 16px 8px;
+        border-bottom: 1px solid #9c9c9c;
+      }
+
+      main {
+        border-bottom: 1px solid #9c9c9c;
+      }
+
+      .main-title {
+        background-color: #f3f4f6;
+        padding: 12px;
+      }
+
+      .main-title-main {
+        margin: 4px 0;
+      }
+
+      .main-title-sub {
+        color: #9c9c9c;
+      }
+
+      .main-source {
+        color: #9c9c9c;
+        margin-bottom: 4px;
+      }
+
+      .table-wrap {
+        padding: 12px;
+      }
+
+      .table-wrap-title {
+        display: inline-block;
+        margin: 12px 12px 12px 0px;
+      }
+
+      .count-wrap {
+        margin-right: 10px;
+      }
+
+      .count-label,
+      .count-value {
+        display: inline;
+      }
+
+      .count-value {
+        color: #0563c1;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        padding: 12px;
+        border: 1px solid #000000;
+        text-align: center;
+      }
+
+      th {
+        background-color: #f3f4f6;
+      }
+
+      th:first-child,
+      td:first-child {
+        border-left: 0;
+      }
+
+      td:nth-child(2) {
+        text-align: left;
+      }
+
+      th:last-child,
+      td:last-child {
+        border-right: 0;
+      }
+
+      button {
+        cursor: pointer;
+        padding: 6px 16px;
+        color: white;
+        background-color: #cf000e;
+        border: none;
+      }
+
+      footer {
+        background-color: #f3f4f6;
+      }
+
+      .footer-logo {
+        display: inline-block;
+        float: left;
+        height: 30px;
+        width: 170px;
+        padding: 30px 16px;
+      }
+      .footer-desc-wrap {
+        display: flex;
+        align-items: center;
+        height: 30px;
+        width: calc(100% - 234px);
+        padding: 30px 16px;
+      }
+      .footer-desc-wrap::after {
+        clear: left;
+      }
+      .footer-desc {
+        line-break: anywhere;
+        color: #787878;
+      }
+      .footer-desc-link {
+        cursor: pointer;
+        line-break: anywhere;
+        color: #0563c1;
+        font-weight: 600;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-div">
+        <img src="images/icon/logo-seegene.svg" />
+      </div>
+    </header>
+    <main>
+      <div class="main-title">
+        <h2 class="main-title-main">Send Article to my mail</h2>
+        <p class="main-title-sub">
+          The requested Article has been successfully sent to my email.
+        </p>
+      </div>
+      <div class="table-wrap">
+        <h2 class="table-wrap-title">Article received</h2>
+        <span>
+          <span class="count-wrap"
+            ><p class="count-label">Journal:</p>
+            <p class="count-value">2</p></span
+          >
+          <span
+            ><p class="count-label">Poster:</p>
+            <p class="count-value">2</p></span
+          >
+        </span>
+        <table>
+          <colgroup>
+            <col width="16%" />
+            <col width="73%" />
+            <col width="11%" />
+          </colgroup>
+          <tbody>
+            <tr>
+              <th>
+                Classification
+              </th>
+              <th>
+                Title
+              </th>
+              <th>
+                Link
+              </th>
+            </tr>
+            <tr>
+              <td>
+                Journal
+              </td>
+              <td>
+                Genomic Evidence of SARS-CoV-2 Reinfection Involving E484K Spike
+                Mutation, Brazil
+              </td>
+              <td>
+                <button>Link</button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Journal
+              </td>
+              <td>
+                SARS-CoV-2 N gene dropout and N gene Ct value shift as indicator
+                for the presence of B.1.1.7 lineage in a widely used commercial
+                multiplex PCR assay
+              </td>
+              <td>
+                <button>Link</button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Poster
+              </td>
+              <td>
+                Dynamics in COVID-19 gene expression during infection
+              </td>
+              <td>
+                <button>Link</button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Poster
+              </td>
+              <td>
+                Novel SARS-CoV-2 full genome material for use in a swab-based
+                formulation as a multi-platform NAAT quality control
+              </td>
+              <td>
+                <button>Link</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="main-source">
+          학술팀 제공 / Provided by Academic Research Team
+        </p>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-logo">
+        <img src="images/icon/logo-seegene-footer.svg" style="height: 100%;" />
+      </div>
+      <div class="footer-desc-wrap">
+        <div style="width: 100;">
+          <span class="footer-desc"
+            >This message is for outbound only and will not be answered if you
+            reply. if you have any problems, please contact us at&nbsp;</span
+          ><a class="footer-desc-link">pr@seegene.com.</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

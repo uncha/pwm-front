@@ -1,0 +1,298 @@
+[
+  {
+    "id": "educational-video",
+    "value": "교육영상관리",
+    "items": [
+      {
+        "id": "/educational-video/create-independent-url",
+        "value": "독립URL생성관리"
+      }
+    ]
+  },
+  {
+    "id": "ecampus-management",
+    "value": "ECAMPUS관리",
+    "items": [
+      {
+        "id": "/ecampus-management/education-list",
+        "value": "교육리스트등록"
+      },
+      {
+        "id": "/ecampus-management/education-history",
+        "value": "교육이력"
+      }
+    ]
+  },
+  {
+    "id": "coa-management",
+    "value": "COA관리",
+    "items": [
+      {
+        "id": "/coa-management/create-coa-management",
+        "value": "COA발급관리"
+      },
+      {
+        "id": "/coa-management/lotno-management",
+        "value": "생산(LotNo)관리"
+      },
+      {
+        "id": "/coa-management/catno-management",
+        "value": "제품(CatNo)관리"
+      },
+      {
+        "id": "/coa-management/inspection-items-management",
+        "value": "검사항목관리"
+      },
+      {
+        "id": "/coa-management/sign-management",
+        "value": "서명관리"
+      }
+    ]
+  },
+  {
+    "id": "academic-analysis",
+    "value": "학술자료 분석",
+    "items": [
+      {
+        "id": "/academic-analysis/paper-registration-status",
+        "value": "논문자료 현황"
+      },
+      {
+        "id": "/academic-analysis/white-paper",
+        "value": "White Paper"
+      }
+    ]
+  },
+  {
+    "id": "license-management",
+    "value": "인허가관리",
+    "items": [
+      {
+        "id": "/license-management/integrated-report",
+        "value": "통합 리포트"
+      },
+      {
+        "id": "/license-management/business-progress",
+        "value": "업무진행 현황"
+      },
+      {
+        "id": "/license-management/country-specific-details/1",
+        "value": "국가별 상세 내역"
+      },
+      {
+        "id": "/license-management/country-history",
+        "value": "국가별 현황"
+      },
+      {
+        "id": "/license-management/product-history",
+        "value": "제품별 현황"
+      },
+      {
+        "id": "/license-management/country-management",
+        "value": "국가 관리"
+      },
+      {
+        "id": "/license-management/ifu-management",
+        "value": "IFU 관리"
+      },
+      {
+        "id": "/license-management/submit-list",
+        "value": "제출자료 리스트"
+      }
+    ]
+  },
+  {
+    "id": "basic-data-management",
+    "value": "기초 데이터 관리",
+    "items": [
+      {
+        "id": "/basic-data-management/regist-competitor",
+        "value": "경쟁사 등록관리"
+      },
+      {
+        "id": "/basic-data-management/regist-competitor-brand",
+        "value": "경쟁사 제품 등록관리"
+      },
+      {
+        "id": "/basic-data-management/regist-rest",
+        "value": "연자/저자 등록관리"
+      },
+      {
+        "id": "/basic-data-management/regist-journal-management",
+        "value": "저널 등록관리"
+      },
+      {
+        "id": "/basic-data-management/catalog",
+        "value": "Cat No 관리"
+      },
+      {
+        "id": "/basic-data-management/product",
+        "value": "제품관리"
+      },
+      {
+        "id": "/basic-data-management/specimen",
+        "value": "검체관리"
+      }
+    ]
+  },
+  {
+    "id": "user-authority-management",
+    "value": "회원 접속권한 관리",
+    "items": [
+      {
+        "id": "/user-authority-management/agency-management",
+        "value": "대리점/법인 관리"
+      },
+      {
+        "id": "/user-authority-management/agency-staff-management",
+        "value": "대리점/법인 직원 관리"
+      },
+      {
+        "id": "/user-authority-management/agency-employee-management",
+        "value": "씨젠 직원 관리"
+      },
+      {
+        "id": "/user-authority-management/agency-rm-management",
+        "value": "RM 관리"
+      }
+    ]
+  },
+  {
+    "id": "notice-management",
+    "value": "대외 공지문 관리",
+    "items": [
+      {
+        "id": "/notice-management",
+        "value": "대외 공지문 작성 배포"
+      }
+    ]
+  },
+  {
+    "id": "file-resource-management",
+    "value": "파일 리소스 관리",
+    "items": [
+      {
+        "id": "/file-resource-management/menual",
+        "value": "메뉴얼"
+      },
+      {
+        "id": "/file-resource-management/academic-data-management",
+        "value": "학술자료 관리"
+      },
+      {
+        "id": "/file-resource-management/msds",
+        "value": "MSDS"
+      },
+      {
+        "id": "/file-resource-management/download-history",
+        "value": "다운로드 이력"
+      }
+    ]
+  },
+  {
+    "id": "pr-promotion-management",
+    "value": "PR 홍보물 관리",
+    "items": [
+      {
+        "id": "/pr-promotion-management/manage-promotion",
+        "value": "홍보물 등록 및 관리"
+      },
+      {
+        "id": "/pr-promotion-management/confirm-promotion",
+        "value": "홍보물 신청 확인"
+      },
+      {
+        "id": "/pr-promotion-management/manage-ecard",
+        "value": "E-card 등록 관리"
+      }
+    ]
+  },
+  {
+    "id": "academy-management",
+    "value": "학회 관리",
+    "items": [
+      {
+        "id": "/academy-management/apply-academy-management",
+        "value": "학회신청관리"
+      },
+      {
+        "id": "/academy-management/academy-db",
+        "value": "학회 정보 DB"
+      },
+      {
+        "id": "/academy-management/participation-history",
+        "value": "연도별 참가 이력 확인"
+      }
+    ]
+  },
+  {
+    "id": "video-management",
+    "value": "동영상 관리",
+    "items": [
+      {
+        "id": "/video-management",
+        "value": "PR.com 영상관리"
+      },
+      {
+        "id": "/video-management/video-content-history",
+        "value": "영상 컨텐츠 사용 이력"
+      }
+    ]
+  },
+  {
+    "id": "statistics-management",
+    "value": "통계 관리",
+    "items": [
+      {
+        "id": "/statistics-management/visitor-statistics",
+        "value": "PR.COM 방문자 통계"
+      },
+      {
+        "id": "/statistics-management/notification-status",
+        "value": "업무 요청 알림 현황"
+      },
+      {
+        "id": "/statistics-management/content-drm-status",
+        "value": "콘텐츠 DRM 사용현황"
+      },
+      {
+        "id": "/statistics-management/content-usage",
+        "value": "콘텐츠 이용현황"
+      }
+    ]
+  },
+  {
+    "id": "system-management",
+    "value": "시스템관리",
+    "items": [
+      {
+        "id": "/system-management/code-management",
+        "value": "코드관리"
+      },
+      {
+        "id": "/system-management/menu-management",
+        "value": "관리자메뉴관리"
+      },
+      {
+        "id": "/system-management/permission-management",
+        "value": "관리자역할관리"
+      },
+      {
+        "id": "/system-management/organization-chart-management",
+        "value": "조직도관리"
+      },
+      {
+        "id": "/system-management/access-log-management",
+        "value": "접속로그관리"
+      },
+      {
+        "id": "/system-management/access-fail-management",
+        "value": "접속실패로그관리"
+      },
+      {
+        "id": "/system-management/app-version-management",
+        "value": "앱 버전관리"
+      }
+    ]
+  }
+]
